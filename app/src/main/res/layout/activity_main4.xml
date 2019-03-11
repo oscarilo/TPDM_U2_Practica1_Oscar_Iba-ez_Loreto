@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".Main4Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Eliminar"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID que desea eliminar:"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/campoConsultar"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnConsultarEspecifico"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorPrimary"
+        android:ems="9"
+        android:text="Consultar"
+        android:textColor="@color/textoBlanco"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/descripcion"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="DESCRIPCION"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/ubicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="UBICACION"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/fecha"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="FECHA"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/presupuesto"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="PRESUPUESTO"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/idleyenda"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="¿Desea eliminar por completo este registro?"
+        android:textAlignment="center"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/confirmarEliminar"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/textoRojo"
+        android:ems="9"
+        android:text="CONFIRMAR!"
+        android:textColor="@color/textoBlanco"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/cerrar"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorPrimary"
+        android:ems="9"
+        android:text="Regresar"
+        android:textColor="@color/textoBlanco"
+        android:textStyle="bold" />
+
+</LinearLayout>
